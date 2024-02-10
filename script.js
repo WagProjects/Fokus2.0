@@ -103,7 +103,7 @@ function iniciarOuPausar() {
 function zerar() {
     clearInterval(intervaloId) 
     iniciarOuPausarBt.textContent = "Começar"
-    iniciarOuPausarBtIcone.setAttribute('src', `/imagens/play_arrow.png`)
+    iniciarOuPausarBtIcone.setAttribute('src', `./imagens/play_arrow.png`)
     intervaloId = null
 }
 
